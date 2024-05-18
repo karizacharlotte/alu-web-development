@@ -1,25 +1,47 @@
-body,main{
+body, main {
     display: flex;
 }
-body{
+body {
     flex-direction: column;
 }
-main{
+main {
     flex-direction: row;
     flex: auto;
 }
-article{
+article {
     flex: 2;
     overflow-y: auto;
 }
-aside{
-    flex:1;
+aside {
+    flex: 1;
     overflow-y: auto;
 }
-header{
+header {
     background-color: rgb(10, 10, 36);
+}
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+header ul li {
+    margin-right: 20px;
+    font-size: 2em;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+article h1, h2, h3 {
+    color: rgb(10, 10, 36);
+}
+article p {
+    font-size: 30px;
+}
+.logo {
+   
+    color: white;
     
 }
-header ul li a{
-    color: white;
-}
+
+
