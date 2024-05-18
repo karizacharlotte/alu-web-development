@@ -16,3 +16,10 @@ aside{
     flex:1;
     overflow-y: auto;
 }
+header{
+    background-color: rgb(10, 10, 36);
+    
+}
+header ul li a{
+    color: white;
+}
